@@ -63,7 +63,7 @@ nav a:hover{
 /* HERO */
 
 .hero { 
-    displau: flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 80px 8%;
@@ -153,6 +153,10 @@ nav a:hover{
     padding: 70px 20 px;
 }
 
+.ctA H2 {
+       margin-bottom: 20ox;
+}
+
 /*AULA 05*/
 .cta button {
     background:  white;
@@ -177,7 +181,7 @@ footer {
     background:  #111;
     color:  white;
     margin-top: 50px
-}
+}              
 
 /* RESPONSIVO */
 
@@ -186,15 +190,15 @@ footer {
     .hero {
         flex-direction: column;
         text-align: center;
-    }
+    }        
 
     .hero-img img { 
         width: 100%;
     }
-
+   
     nav ul {
         display: none;
     }
-
+  
 }
     
